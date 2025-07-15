@@ -52,12 +52,11 @@ Cancer is characterized by aberrant gene expression patterns. By leveraging high
 
 ## Installation
 
-1. **Clone the repo**
-
+1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your‑username/gene-cancer-detect.git
-   cd gene-cancer-detect
-   ```
+   git clone https://github.com/Ismat-Samadov/gene-cancer-detection.git
+   cd gene-cancer-detection
+
 
 2. **Create a conda environment**
 
