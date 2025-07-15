@@ -1,5 +1,10 @@
 # Gene Expression Cancer Detection
 
+[![GitHub stars](https://img.shields.io/github/stars/Ismat-Samadov/gene-cancer-detection)](https://github.com/Ismat-Samadov/gene-cancer-detection/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Machine‑learning pipeline to classify cancer vs. healthy samples using gene expression profiles.
+
 ## 🚀 Project Overview
 
 **Gene Expression Cancer Detection** is a machine‑learning pipeline that classifies samples as “cancer” vs. “healthy” (or cancer subtypes) based on genome‑wide expression profiles. This end‑to‑end project covers data acquisition, preprocessing, exploratory analysis, model training, evaluation, and interpretability.
@@ -57,8 +62,8 @@ Cancer is characterized by aberrant gene expression patterns. By leveraging high
 2. **Create a conda environment**
 
    ```bash
-   conda env create -f environment.yml
-   conda activate gene-cancer-detect
+  conda env create -f environment.yml
+  conda activate gene-cancer-detection
    ```
 
 3. **Install Python dependencies**
