@@ -1611,34 +1611,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyTorch and TensorFlow teams** for deep learning frameworks
 - **Cancer research community** for advancing our understanding of cancer biology
 
-## 📞 Contact & Support
-
-**Ismat Samadov**
-- 🐙 GitHub: [@Ismat-Samadov](https://github.com/Ismat-Samadov)
-- 📧 Email: ismat.samadov@example.com
-- 💼 LinkedIn: [Ismat Samadov](https://linkedin.com/in/ismat-samadov)
-- 🎓 Research Profile: [Google Scholar](https://scholar.google.com/citations?user=example)
-
-### Getting Help
-
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Ismat-Samadov/gene-cancer-detection/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Ismat-Samadov/gene-cancer-detection/discussions)
-- 📖 **Documentation**: [Wiki](https://github.com/Ismat-Samadov/gene-cancer-detection/wiki)
-- 📚 **Research Support**: [Bioinformatics Help Forum](https://bioinformatics.example.com/forum)
-
-### Community
-
-- 🧬 **Bioinformatics Community**: [r/bioinformatics](https://reddit.com/r/bioinformatics)
-- 🔬 **Cancer Research**: [Cancer Genomics Hub](https://cancergenomics.example.com)
-- 🤖 **ML in Healthcare**: [ML4Health Community](https://ml4health.example.com)
-
-## 🔗 Related Projects
-
-- [Investment Bot](https://github.com/Ismat-Samadov/investment_bot)
-- [Speech Emotion Recognition](https://github.com/Ismat-Samadov/Speech_Emotion_Recognition)
-- [DeepSeek Azerbaijani Fine-tuning](https://github.com/Ismat-Samadov/deepseek_AZE)
-- [NumberAggregator](https://github.com/Ismat-Samadov/NumberAggregator)
-
 ---
 
 <div align="center">
