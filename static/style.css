@@ -169,6 +169,17 @@ header h1 {
     box-shadow: 0 4px 12px rgba(72, 199, 116, 0.4);
 }
 
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
+}
+
 .btn:disabled {
     background: #ccc;
     cursor: not-allowed;

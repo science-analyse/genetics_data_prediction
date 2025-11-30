@@ -82,6 +82,9 @@
             <div class="card">
                 <h2>Manual Input (JSON)</h2>
                 <p>Paste JSON data with gene expression values.</p>
+                <div style="margin-bottom: 10px;">
+                    <button class="btn btn-secondary" onclick="loadExampleJSON()">Load Example Data</button>
+                </div>
                 <textarea id="json-input" rows="10" placeholder='{"gene_expressions": [val1, val2, ..., val7129]}'></textarea>
                 <button class="btn btn-primary" onclick="predictFromJSON()">Predict from JSON</button>
             </div>
@@ -193,6 +196,23 @@
                 displayMultipleResults(result);
             } catch (error) {
                 showNotification('Error processing CSV: ' + error.message, 'error');
+            }
+        }
+
+        async function loadExampleJSON() {
+            try {
+                const response = await fetch('/api/sample-data');
+                const data = await response.json();
+
+                // Format as JSON with proper indentation
+                const jsonData = {
+                    gene_expressions: data.gene_expressions
+                };
+
+                document.getElementById('json-input').value = JSON.stringify(jsonData, null, 2);
+                showNotification('Example data loaded! Click "Predict from JSON" to test.', 'success');
+            } catch (error) {
+                showNotification('Error loading example data: ' + error.message, 'error');
             }
         }
 
