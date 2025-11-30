@@ -108,6 +108,22 @@
     <script>
         let sampleData = null;
 
+        // Auto-load example JSON data when page loads
+        window.addEventListener('DOMContentLoaded', async function() {
+            try {
+                const response = await fetch('/api/sample-data');
+                const data = await response.json();
+
+                // Pre-fill JSON textarea with example data
+                const jsonData = {
+                    gene_expressions: data.gene_expressions
+                };
+                document.getElementById('json-input').value = JSON.stringify(jsonData, null, 2);
+            } catch (error) {
+                console.error('Could not load example data:', error);
+            }
+        });
+
         function showTab(tabName) {
             // Hide all tabs
             document.querySelectorAll('.tab-content').forEach(tab => {
