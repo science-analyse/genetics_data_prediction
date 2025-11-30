@@ -68,9 +68,10 @@ logs/
 *.sqlite
 *.sqlite3
 
-# Models (optional - comment out if you want to version control models)
-models/*.pkl
-models/*.joblib
+# Models - Allow model files to be committed for deployment
+# Uncomment the lines below if you want to exclude models from git
+# models/*.pkl
+# models/*.joblib
 !models/.gitkeep
 
 # Data (large files)

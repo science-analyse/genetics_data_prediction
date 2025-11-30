@@ -17,6 +17,25 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Startup check (runs when app starts)
+def check_models_on_startup():
+    """Check model availability on startup."""
+    if not predictor.models_available():
+        print("=" * 80)
+        print("WARNING: Models not found!")
+        print("=" * 80)
+        print("The models directory is missing or incomplete.")
+        print("To generate models, run:")
+        print("  1. pip install -r notebooks/analyse_requirements.txt")
+        print("  2. jupyter notebook notebooks/analyse.ipynb")
+        print("  3. Run all cells")
+        print("=" * 80)
+    else:
+        print("✓ Models loaded successfully")
+
+# Run startup check
+check_models_on_startup()
+
 # Mount static files and templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
